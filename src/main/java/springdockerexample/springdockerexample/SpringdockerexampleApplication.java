@@ -13,10 +13,6 @@ public class SpringdockerexampleApplication {
 	public String hello() {
 		return "This is Example";
 	}
-	@GetMapping(value="asad")
-	public String asad() {
-		return "This is asad";
-	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringdockerexampleApplication.class, args);
 	}
